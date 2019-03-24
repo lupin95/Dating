@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +17,7 @@ include("top.php");
     <div id="messeger">
     </div>
     <div id="chat">
-        <input style="height: 30px;width: 80%" type="text" name = "chat" placeholder="Nhập tin nhắn....">
+        <input style="height: 30px;width: 80%" type="text" name = "chat" placeholder="Nhập tin nhắn.....">
         <input style="height: 30px;width: 18%" type="button" name="send" value="Gửi">
     </div>
 </div>
