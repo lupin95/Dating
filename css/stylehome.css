@@ -1,0 +1,39 @@
+/*==menu==*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #cccccc;
+
+}
+#menu ul{
+    background:lightgoldenrodyellow;
+    list-style-type:none;
+    text-align:center;
+}
+#menu ul li{
+    width:150px;
+    height:60px;
+    /*float:left;*/
+    display:inline-table;
+    line-height:60px;
+    position:relative;
+}
+#menu ul li a{
+    color:red;
+    text-decoration:none;
+    display:block;
+}
+#menu ul li a:hover{
+    background:white;
+    color:black;
+}
+#menu ul li > .sub-menu{
+    display:none;
+    position:absolute;
+}
+#menu ul li:hover .sub-menu{
+    display:block;
+}

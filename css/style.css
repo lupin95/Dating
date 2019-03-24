@@ -1,0 +1,127 @@
+body {
+    /* The image used */
+background-image: url("image/1.gif");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    font-family:sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin :0;
+    padding: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    opacity: 0.7;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar h1 {
+    float: right;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+marquee{
+    bot:0;
+    color: red;
+    font-family: unset;
+    text-align: center;
+    font-size: 50px;}
+h2{
+    color: red;
+    font-family: "Cambria Math";
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+
+}
+h3{
+    font-size: 20px;
+}
+#btn{
+    margin: 8px 37%;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+
+
+}
+.form-lg{
+    background: lightgoldenrodyellow;
+    width: 500px;
+    opacity:0.8;
+    margin :160px  auto;
+    border: solid yellow 2px;
+	border-radius:8px;
+}
+
+.form-rg{
+    width: 450px;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.8;
+    margin:160px auto;
+    border: solid yellow 2px;
+}
+.form-fg{
+    width: 450px;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.8;
+    margin: 200px auto;
+    border: solid yellow 2px;
+}
+#userName,#passWord,#fullName,#age{
+    width: 85%;
+    padding:12px 20px;
+    margin: 8px 3%;
+    display:inline-block;
+    border: solid gray 1px;
+}
+input[type= checkbox]{
+    width:12px;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
